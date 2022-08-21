@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Dedaloria</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/estilos/player.css" rel="stylesheet" type="text/css" />
+    <title>Music Dedaloria</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="/estilos/styls.css" />
-    <link rel="stylesheet" href="/estilos/player.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,12 +24,8 @@
         display: none;
       }
     </style>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="player.css" rel="stylesheet" type="text/css" />
-    <title>my music</title>
   </head>
+
   <body>
     <!-- Navbar -->
     <div class="w3-top">
@@ -63,8 +62,12 @@
             MORE <i class="fa fa-caret-down"></i>
           </button>
           <div class="w3-dropdown-content w3-bar-block w3-card-4">
-            <a href="#" class="w3-bar-item w3-button">ART</a>
-            <a href="player.html" class="w3-bar-item w3-button">MUSIC</a>
+            <a href="/paginas/galeria.html" class="w3-bar-item w3-button"
+              >ART</a
+            >
+            <a href="/paginas/player.html" class="w3-bar-item w3-button"
+              >MUSIC</a
+            >
           </div>
         </div>
         <a
@@ -126,33 +129,9 @@
             />
           </button>
           <div class="slider__content">
-            <img class="img slider__img" src="img/buhote.gif" alt="cover" />
-            <img class="img slider__img" src="img/gualk.gif" alt="cover" />
-            <img
-              class="img slider__img"
-              src="http://physical-authority.surge.sh/imgs/3.jpg"
-              alt="cover"
-            />
-            <img
-              class="img slider__img"
-              src="http://physical-authority.surge.sh/imgs/4.jpg"
-              alt="cover"
-            />
-            <img
-              class="img slider__img"
-              src="http://physical-authority.surge.sh/imgs/5.jpg"
-              alt="cover"
-            />
-            <img
-              class="img slider__img"
-              src="http://physical-authority.surge.sh/imgs/6.jpg"
-              alt="cover"
-            />
-            <img
-              class="img slider__img"
-              src="http://physical-authority.surge.sh/imgs/7.jpg"
-              alt="cover"
-            />
+            <img class="img slider__img" src="/img/buhote.gif" alt="cover" />
+            <img class="img slider__img" src="/img/gualk.gif" alt="cover" />
+            <img class="img slider__img" src="/img/yump.gif" alt="cover" />
           </div>
         </div>
 
@@ -183,7 +162,7 @@
 
       <ul class="player__playlist list">
         <li class="player__song">
-          <img class="player__img img" src="/img/gualk.gif" alt="cover" />
+          <img class="player__img img" src="/img/buhote.gif" alt="cover" />
           <p class="player__context">
             <b class="player__song-name">Aventura Gatuna</b>
             <span class="flex">
@@ -191,30 +170,36 @@
               <span class="player__song-time"></span>
             </span>
           </p>
-          <audio
-            class="audio"
-            src="/canciones/Música y Sonido/Aventura Gatuna.wav"
-          ></audio>
+          <audio class="audio" src="/canciones/Aventura Gatuna.wav"></audio>
         </li>
         <li class="player__song">
-          <img class="player__img img" src="/img/yump.gif" alt="cover" />
+          <img class="player__img img" src="/img/gualk.gif" alt="cover" />
           <p class="player__context">
-            <b class="player__song-name">Inconformidad</b>
+            <b class="player__song-name">Inconforme con la socidad</b>
             <span class="flex">
-              <span class="player__title">Inconformidad Gatuna</span>
+              <span class="player__title">Inconforme con la socidad</span>
               <span class="player__song-time"></span>
             </span>
           </p>
           <audio
             class="audio"
-            src="/canciones/Música y Sonido/Inconformidad social.wav"
+            src="/canciones/Inconforme con la sociedad.wav"
           ></audio>
+        </li>
+        <li class="player__song">
+          <img class="player__img img" src="/img/yump.gif" alt="cover" />
+          <p class="player__context">
+            <b class="player__song-name">Libertad y Paz</b>
+            <span class="flex">
+              <span class="player__title">Libertad y Paz</span>
+              <span class="player__song-time"></span>
+            </span>
+          </p>
+          <audio class="audio" src="/canciones/Libertar y Paz.wav"></audio>
         </li>
       </ul>
     </div>
-    <div class="w3-third w3-margin-bottom">
-      <img class="imggatojump" src="/img/yump.gif" />
-    </div>
-    <script src="js/player.js"></script>
+    <div><img class="imgbuho" src="/img/yump.gif" /></div>
+    <script src="/js/player.js"></script>
   </body>
 </html>

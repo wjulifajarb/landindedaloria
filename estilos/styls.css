@@ -21,3 +21,8 @@ body {
   width: 150px;
   position: relative;
 }
+.title2 {
+  align-content: left;
+  color: blueviolet;
+  font-family: "Old Standard TT", serif;
+}
