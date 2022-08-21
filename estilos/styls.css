@@ -2,7 +2,7 @@ body {
   font-family: "Old Standard TT", serif;
 }
 .game {
-  background-image: url("img/paisajefinal.png");
+  background-image: url("/img/paisajefinal.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
