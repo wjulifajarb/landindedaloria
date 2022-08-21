@@ -1,0 +1,10 @@
+.game {
+  background-image: url("img/paisaje.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imggato {
+  position: absolute;
+  right: 60%;
+}
