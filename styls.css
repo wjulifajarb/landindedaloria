@@ -1,10 +1,20 @@
 .game {
-  background-image: url("img/paisaje.png");
+  background-image: url("img/paisajefinal.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .imggato {
   position: absolute;
-  right: 60%;
+  left: 50%;
+}
+.imggatojump {
+  height: 400px;
+  width: 400px;
+}
+
+.imgbuho {
+  height: 200px;
+  width: 150px;
+  position: relative;
 }
