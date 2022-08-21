@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="styls.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&family=Roboto:wght@100&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Lato"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <style>
       body {
@@ -23,6 +21,7 @@
       }
     </style>
   </head>
+
   <body>
     <!-- Navbar -->
     <div class="w3-top">
@@ -59,9 +58,8 @@
             MORE <i class="fa fa-caret-down"></i>
           </button>
           <div class="w3-dropdown-content w3-bar-block w3-card-4">
-            <a href="#" class="w3-bar-item w3-button">ART</a>
+            <a href="galeria.html" class="w3-bar-item w3-button">ART</a>
             <a href="player.html" class="w3-bar-item w3-button">MUSIC</a>
-            <a href="#" class="w3-bar-item w3-button">ANIMATIONS</a>
           </div>
         </div>
         <a
@@ -115,7 +113,7 @@
 
         <!-- The Band Section -->
         <div
-          class="w3-container w3-content w3-center w3-padding-64"
+          class="texto w3-container w3-content w3-center w3-padding-64"
           style="max-width: 800px"
           id="band"
         >
@@ -247,55 +245,7 @@
       </div>
 
       <!-- Ticket Modal -->
-      <div id="ticketModal" class="w3-modal">
-        <div class="w3-modal-content w3-animate-top w3-card-4">
-          <header class="w3-container w3-teal w3-center w3-padding-32">
-            <span
-              onclick="document.getElementById('ticketModal').style.display='none'"
-              class="w3-button w3-teal w3-xlarge w3-display-topright"
-              >×</span
-            >
-            <h2 class="w3-wide">
-              <i class="fa fa-suitcase w3-margin-right"></i>Tickets
-            </h2>
-          </header>
-          <div class="w3-container">
-            <p>
-              <label
-                ><i class="fa fa-shopping-cart"></i> Tickets, $15 per
-                person</label
-              >
-            </p>
-            <input
-              class="w3-input w3-border"
-              type="text"
-              placeholder="How many?"
-            />
-            <p>
-              <label><i class="fa fa-user"></i> Send To</label>
-            </p>
-            <input
-              class="w3-input w3-border"
-              type="text"
-              placeholder="Enter email"
-            />
-            <button
-              class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right"
-            >
-              PAY <i class="fa fa-check"></i>
-            </button>
-            <button
-              class="w3-button w3-red w3-section"
-              onclick="document.getElementById('ticketModal').style.display='none'"
-            >
-              Close <i class="fa fa-remove"></i>
-            </button>
-            <p class="w3-right">
-              Need <a href="#" class="w3-text-blue">help?</a>
-            </p>
-          </div>
-        </div>
-      </div>
+      <div id="ticketModal" class="w3-modal"></div>
       <!-- The Contact Section -->
 
       <div
@@ -305,7 +255,7 @@
       >
         <div class="w3-row w3-padding-32">
           <div class="w3-third">
-            <p>Flen Product@r</p>
+            <p>Flencampos #9572 Product@r - Musica</p>
             <img
               src="/w3images/bandmember.jpg"
               class="w3-round w3-margin-bottom"
@@ -314,7 +264,7 @@
             />
           </div>
           <div class="w3-third">
-            <p>Da-ga Animad@r</p>
+            <p>Da-ga #0084 Animad@r - Animaciones y cleanup</p>
             <img
               src="/w3images/bandmember.jpg"
               class="w3-round w3-margin-bottom"
@@ -323,7 +273,7 @@
             />
           </div>
           <div class="w3-third">
-            <p>Ara Ilustrador@</p>
+            <p>Aratorresmm #9673I lustrador@ - Art2D</p>
             <img
               src="/w3images/bandmember.jpg"
               class="w3-round"
@@ -334,7 +284,7 @@
         </div>
         <div class="w3-row w3-padding-32">
           <div class="w3-third">
-            <p>Sam Ilustrador@</p>
+            <p>Sam.M.A .#1556 Ilustrador@ - Art2D</p>
             <img
               src="/w3images/bandmember.jpg"
               class="w3-round w3-margin-bottom"
@@ -343,7 +293,7 @@
             />
           </div>
           <div class="w3-third">
-            <p>Saris Desarrollador@</p>
+            <p>saris326 #2817 Desarrollador@ - progrmación- Diseño interfaz</p>
             <img
               src="/w3images/bandmember.jpg"
               class="w3-round w3-margin-bottom"
@@ -352,7 +302,10 @@
             />
           </div>
           <div class="w3-third">
-            <p>Tana Creador@</p>
+            <p>
+              Tanarotte #4381 Creador@ y gestor@ - Diseño de interfaz- Art2D-
+              Diseño personajes - Narrativa
+            </p>
             <img
               src="/w3images/bandmember.jpg"
               class="w3-round"
@@ -364,7 +317,7 @@
 
         <div class="w3-row w3-padding-32">
           <div class="w3-third">
-            <p>Juls Desarrolladora</p>
+            <p>Juls #4486 Desarrolladora - Diseño de interfaz</p>
             <img
               src="/w3images/bandmember.jpg"
               class="w3-round w3-margin-bottom"
@@ -384,7 +337,7 @@
       <p class="w3-medium">
         Powered by
         <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
-          >WGJ</a
+          >Woman Game Jam</a
         >
       </p>
     </footer>
